@@ -22,8 +22,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; */
-  height: 15vh;
-  max-height: 15vh;
+  height: 5rem;
+  max-height: 5rem;
+  margin-bottom: 20px;
 }
 
 .nav-main {
@@ -36,8 +37,8 @@
   gap: 20px;
   font-size: 20px;
   margin-bottom: 20px;
-  min-height: 7vh;
-  max-height: 7vh;
+  min-height: 5rem;
+  max-height: 5rem;
 }
 
 .navlinks,
@@ -89,6 +90,7 @@
   align-items: center;
   text-decoration: none;
   gap: 5px;
+  margin-bottom: 20px;
 }
 
 .cart-icon {
@@ -165,8 +167,8 @@ input {
   justify-content: space-evenly;
   grid-gap: 10px;
   align-items: center;
-  min-height: 8vh;
-  max-height: 8vh;
+  min-height: 5rem;
+  max-height: 5rem;
 }
 
 .bottom-bar,
