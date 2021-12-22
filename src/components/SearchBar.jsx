@@ -21,7 +21,7 @@ const SearchBar = ({ setIsLoading }) => {
     >
       <fieldset>
         <label className="search-label search-components search" htmlFor="keywords">
-          Find your sound:{" "}
+          Find your groove:{" "}
         </label>
         <input
           className="searchbar search-components search"
