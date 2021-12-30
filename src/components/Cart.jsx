@@ -89,7 +89,7 @@ const Cart = () => {
           )}
         </div>
         <div className="cart-product-container">
-        <h1 className="product-title">Here is your cart good sir</h1>
+        <h1 className="product-title">You're almost ready to rock!</h1>
           {cart.length ? (
             cart.map((myCart) => (
               <div className="mycart" key={myCart.productId}>

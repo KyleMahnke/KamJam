@@ -87,3 +87,10 @@
     flex-direction: column;
     align-content: flex-start;
 }
+
+.cart-name {
+    max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
