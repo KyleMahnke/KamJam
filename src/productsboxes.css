@@ -19,7 +19,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left bottom;
-  /* max-height: 85vh; */
   overflow-y: scroll;
   align-items: center;
   justify-content: center;
@@ -41,7 +40,6 @@
   margin: 2vw;
   width: 400px;
   height: 400px;
-  /* background-color: 	#e5ecff; */
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
