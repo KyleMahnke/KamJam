@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Chicle&family=Ranchers&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 .loginPage {
-  height: 85vh;
+  margin-top: 5rem;
+  height: 100vh;
   background-image: url("./components/images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,13 +21,20 @@
   top: 57%;
   transform: translate(-50%, -50%);
   padding: 1.5rem;
+  margin-top: 7rem;
   border: 1px solid #303036;
-  height: 48vh;
-  min-width: 40vw;
+  /* height: 48vh;
+  min-width: 40vw; */
   gap: 0.5vh;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .loginForm {
+    margin-top: 15rem;
+  }
 }
 
 .login-sub {
@@ -34,6 +42,13 @@
   justify-content: center;
   font-size: 25px;
   padding: 10px;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1060px) {
+  .login-sub {
+    margin-bottom: 15rem;
+  }
 }
 
 .login-links {
@@ -74,10 +89,17 @@
   text-align: center;
   font-size: 50pt;
   text-shadow: #e1b10f 3px 3px;
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1060px) {
+  .welcome-back {
+    margin-top: 15rem;
+  }
 }
 
 .login-to {
   font-size: 20pt;
-  width: 40vw;
+  /* width: 40vw; */
   text-align: center;
 }
