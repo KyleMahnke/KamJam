@@ -19,7 +19,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left bottom;
-  max-height: 85vh;
+  /* max-height: 85vh; */
   overflow-y: scroll;
   align-items: center;
   justify-content: center;
@@ -28,12 +28,10 @@
 
 .product-container {
   display: flex;
-  margin: 0;
+  margin-top: 10px;
   flex-wrap: wrap;
   justify-content: center;
   min-height: 80vh;
-  width: 75vw;
-  /* background-color: beige; */
 }
 
 .product-card {
@@ -104,11 +102,21 @@
 }
 
 .product-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
-  font-size: 50pt;
-  height: 5vh;
+  font-size: 70px;
+  color: black;
+  margin-top: 5rem;
   align-content: flex-end;
   text-shadow: #e1b10f 3px 3px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .product-title {
+    margin-top: 15rem;
+  }
 }
 
 .title-div {
