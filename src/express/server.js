@@ -7,7 +7,7 @@ const { client } = require("./db");
 const server = http.createServer(app);
 
 // connect to the server
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 // Listen on the port
 server.listen(PORT, async () => {
