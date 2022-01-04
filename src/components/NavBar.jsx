@@ -31,7 +31,7 @@ const NavBar = ({ isLoggedIn, setIsLoggedIn }) => {
       <SearchBar className="top-bar" />
       <div className="right-nav">
         <div className="cart-icon">
-          {user.name ? <p>Hello, {user.name}!</p> : <p>Hello guest!</p>}
+          {user.name ? <p>Hello, {user.name}!</p> : <p>Hello friend!</p>}
           {/* <div className="view-cart">
             <Link to="/cart">
               <span class="material-icons">shopping_cart</span>
