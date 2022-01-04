@@ -52,7 +52,7 @@ async function rebuildDB() {
     // drop tables in correct order
     // build tables in correct order
   } catch (error) {
-    throw error;
+    console.error(error);
   }
 }
 
@@ -174,7 +174,7 @@ async function seedData() {
     }
     // create useful starting data
   } catch (error) {
-    throw error;
+    console.error(error);
   }
 }
 
