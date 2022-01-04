@@ -5,7 +5,7 @@ export default function ThankYou() {
   return (
     <div className="thank-page">
       <h1 className="thank-title">Get ready to Jam!</h1>
-      <p className="thank-description">Thank you for ordering from KamJam! Looks like a jam session is soon to come.</p>
+      <p className="thank-description">Thank you for ordering from KamJam!</p>
       <p className="thank-email">
         You will receive an email shortly with a summary of your order and
         shipping information when it becomes available
