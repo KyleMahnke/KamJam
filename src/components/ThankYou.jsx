@@ -11,7 +11,7 @@ export default function ThankYou() {
         shipping information when it becomes available
       </p>
       <p className="jam-button">
-      <Link className="keep-jamming" to="/">Keep Jamming</Link>
+      <Link className="keep-jamming" to="/">Keep Jamming!</Link>
       </p>
     </div>
   );
